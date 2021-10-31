@@ -101,12 +101,17 @@
     transform: translateX(-50%);
     display: block;
     color: rgba(255, 255, 255, 0.3);
-    text-decoration: none;
     margin-top: 220px;
     font-family: 'Raleway', sans-serif;
 }
 
-.footer:hover {
+.footer-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+
+}
+
+.footer-link:hover {
     color: rgba(255, 255, 255, 0.7);
     
 }

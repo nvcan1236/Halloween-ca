@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     background-color: #191a2e;
     width: 100vw;
     height: 100vh;
@@ -94,9 +95,12 @@
 }
 
 .footer {
+    position: absolute;
+    bottom: 40px;
+    margin-left: 50%;
+    transform: translateX(-50%);
     display: block;
     color: rgba(255, 255, 255, 0.3);
-    text-align: center;
     text-decoration: none;
     margin-top: 220px;
     font-family: 'Raleway', sans-serif;
